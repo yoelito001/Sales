@@ -1,4 +1,6 @@
-﻿namespace Sales.Data.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace Sales.Data.Entities
 {
     public class DetalleVenta
     {
