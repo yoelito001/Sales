@@ -5,10 +5,7 @@ namespace Sales.Data.Context
 {
     public class ConeContext : DbContext
     {
-        public ConeContext(DbContextOptions <ConeContext> options) : base(options)
-        {
-            
-        }
+        public ConeContext(DbContextOptions <ConeContext> options) : base(options) { }
 
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Configuracion> Configuraciones { get; set; }
